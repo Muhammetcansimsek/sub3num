@@ -26,8 +26,8 @@ python3 subdomain.py [-h] -d DOMAIN [-v]
 ```
 
 # Installation
-``*git clone https://github.com/Muhammetcansimsek/sub3num.git*``
+``git clone https://github.com/Muhammetcansimsek/sub3num.git``
 
-``pip install -r requirements.txt*``
+``pip install -r requirements.txt``
 
 *Thanks for taking time to read, hope it was usefull*
