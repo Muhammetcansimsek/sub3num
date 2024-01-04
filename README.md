@@ -6,9 +6,17 @@ and then print the results.
 
 # Usage
 ```
-usage:python3 subdomain.py [-h] -d DOMAIN [-v]
+python3 subdomain.py [-h] -d DOMAIN [-v]
 ```
 
+* To list all the basic options and switches use -h switch
+``python3 subdomain.py -h | python3 subdomain.py --help``
+
+* To enumerate subdomains of specific domain:
+``python3 subdomain.py -d example.com | python3 subdomain.py --domain example.com``
+
+* To enumerate subdomains of specific domain and show the results in realtime:
+  ``python3 subdomain.py -v | python3 subdomain.py --verbose``
 
 ## options:
 ```
@@ -18,11 +26,8 @@ usage:python3 subdomain.py [-h] -d DOMAIN [-v]
 ```
 
 # Installation
-```
-*git clone https://github.com/Muhammetcansimsek/sub3num.git*
-````
-```
-*pip install -r requirements.txt*
-````
+``*git clone https://github.com/Muhammetcansimsek/sub3num.git*``
+
+``pip install -r requirements.txt*``
 
 *Thanks for taking time to read, hope it was usefull*
