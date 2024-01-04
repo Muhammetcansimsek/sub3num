@@ -6,7 +6,7 @@ and then print the results.
 
 # Usage
 ```
-*usage:python3 subdomain.py [-h] -d DOMAIN [-v]*
+usage:python3 subdomain.py [-h] -d DOMAIN [-v]
 ```
 
 
